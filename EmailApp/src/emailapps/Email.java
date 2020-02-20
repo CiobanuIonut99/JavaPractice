@@ -14,5 +14,15 @@ public class Email {
         this.lastName = lastName;
     }
 
+    private String  randomPassword(int length){
+
+        String alphabet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()1234567890";
+        String password;
+
+        for(int i=0;i<length;i++)
+        {
+            Math.random()
+        }
+    }
 
 }
